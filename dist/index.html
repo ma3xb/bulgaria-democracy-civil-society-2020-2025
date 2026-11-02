@@ -21,6 +21,7 @@
       <a href="#timeline" data-i18n="navTimeline">Хронология</a>
       <a href="#programmes" data-i18n="navProgrammes">Програми</a>
       <a href="#institutions" data-i18n="navInstitutions">Институции</a>
+      <a href="#evidence" data-i18n="navEvidence">Донори</a>
       <a href="#method" data-i18n="navMethod">Метод</a>
     </nav>
     <div class="header-actions">
@@ -78,10 +79,10 @@
         </article>
         <article class="scope-card yellow reveal">
           <span class="scope-number">03</span>
-          <h3 data-i18n="scopeAwardTitle">Конкретни грантове и схеми</h3>
-          <p data-i18n="scopeAwardBody">Идентифицирани проекти и схеми за регрантиране с публикувана стойност.</p>
-          <strong>€7.45M+</strong>
-          <small data-i18n="scopeAwardNote">ProEUvaluesBG, BIRDS, FORCE и избрани частни/американски грантове</small>
+          <h3 data-i18n="scopeAwardTitle">Портфейли, грантове и схеми</h3>
+          <p data-i18n="scopeAwardBody">Идентифицирани проектни портфейли, отделни грантове и схеми за регрантиране с публикувана стойност.</p>
+          <strong>€32.75M+</strong>
+          <small data-i18n="scopeAwardNote">ABF, ProEUvaluesBG, BIRDS, FORCE и избрани частни/американски грантове</small>
         </article>
       </div>
       <p class="caution-note reveal"><span>!</span><span data-i18n="scopeCaution">Трите нива не се събират механично: част от конкретните схеми са финансирани от по-големите програмни бюджети.</span></p>
@@ -92,10 +93,10 @@
       <div class="section-heading compact reveal">
         <p class="eyebrow" data-i18n="landscapeEyebrow">Съпоставимата част</p>
         <h2 data-i18n="landscapeTitle">Документирани средства<br><em>за България</em></h2>
-        <p data-i18n="landscapeIntro">Подбрани национални бюджети и отделни грантове, преобразувани ориентировъчно в евро. Подредбата е по публикуван размер.</p>
+        <p data-i18n="landscapeIntro">Национални бюджети, проектни портфейли и отделни грантове, преобразувани ориентировъчно в евро и подредени по публикуван размер.</p>
       </div>
       <div class="landscape-grid">
-        <div class="big-stat reveal"><span data-i18n="identified">Идентифициран минимум</span><strong>€68.0M+</strong><small data-i18n="identifiedNote">за основни програми и проекти, свързани с права, правосъдие, участие и граждански капацитет</small></div>
+        <div class="big-stat reveal"><span data-i18n="identified">Идентифициран минимум</span><strong>€93.3M+</strong><small data-i18n="identifiedNote">без регионалните бюджети без български дял, споделеното финансиране и известните припокривания</small></div>
         <div class="bar-chart reveal" id="barChart" role="img" aria-label="Сравнение на публикуваните бюджети"></div>
       </div>
       <div class="chart-legend reveal">
@@ -171,23 +172,29 @@
         <h2 data-i18n="institutionsTitle">Публикувани стойности<br><em>в низходящ ред</em></h2>
         <p data-i18n="institutionsIntro">Сумите включват само съпоставими, количествено определени национални компоненти и избрани грантове от каталога.</p>
       </div>
-      <div class="institution-layout">
+      <div class="institution-layout single">
         <div class="institution-table-wrap reveal">
           <table class="institution-table">
             <thead><tr><th data-i18n="institution">Институция</th><th data-i18n="included">Включени програми</th><th data-i18n="totalEur">Общо, EUR</th></tr></thead>
             <tbody id="institutionTable"></tbody>
           </table>
         </div>
-        <aside class="unquantified reveal">
-          <h3 data-i18n="unquantifiedTitle">Потвърдена подкрепа без публикуван общ размер</h3>
-          <div class="logo-cloud" id="logoCloud"></div>
-          <p data-i18n="unquantifiedNote">Тези организации присъстват в публични проектни или донорски документи, но наличните източници не позволяват надежден общ размер за България през 2020–2025 г.</p>
-        </aside>
       </div>
+      <aside class="coverage-note reveal"><strong data-i18n="partialTitle">Количествено покритие</strong><p data-i18n="partialNote">Общите стойности не включват регионални бюджети без публикуван български дял, съвместно финансирани схеми без разбивка по донор и суми, които биха дублирали вече включена програма.</p></aside>
       <div class="section-index"><span>07</span><i></i><small data-i18n="institutionsIndex">Институции</small></div>
     </section>
 
-    <section class="slide source-section" id="method" data-section="08">
+    <section class="slide evidence-section" id="evidence" data-section="08">
+      <div class="section-heading compact reveal">
+        <p class="eyebrow" data-i18n="evidenceEyebrow">Проверка на потвърдената подкрепа</p>
+        <h2 data-i18n="evidenceTitle">Какво показват<br><em>публичните следи</em></h2>
+        <p data-i18n="evidenceIntro">За институциите без пълен национален отчет показваме най-конкретното налично доказателство: портфейл, отделен грант, регионален резултат или потвърдено партньорство.</p>
+      </div>
+      <div class="evidence-grid" id="evidenceGrid"></div>
+      <div class="section-index"><span>08</span><i></i><small data-i18n="evidenceIndex">Донорски следи</small></div>
+    </section>
+
+    <section class="slide source-section" id="method" data-section="09">
       <div class="method-grid">
         <div class="section-heading compact reveal">
           <p class="eyebrow" data-i18n="methodEyebrow">Метод и източници</p>
@@ -208,13 +215,13 @@
         <div><b>CIVIC / BG</b><span data-i18n="footerText">Независим аналитичен преглед · актуализиран спрямо наличните публични източници</span></div>
         <a href="#cover"><span data-i18n="backTop">Към началото</span> ↑</a>
       </footer>
-      <div class="section-index"><span>08</span><i></i><small data-i18n="methodIndex">Методология</small></div>
+      <div class="section-index"><span>09</span><i></i><small data-i18n="methodIndex">Методология</small></div>
     </section>
   </main>
 
   <div class="slide-controls" aria-label="Навигация между разделите">
     <button id="prevSlide" type="button" aria-label="Предишен раздел">↑</button>
-    <span id="slideCounter">01 / 08</span>
+    <span id="slideCounter">01 / 09</span>
     <button id="nextSlide" type="button" aria-label="Следващ раздел">↓</button>
   </div>
 
