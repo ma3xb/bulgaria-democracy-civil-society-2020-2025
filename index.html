@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0413f5">
+  <meta name="description" content="Двуезична интерактивна презентация за финансирането на демокрацията и гражданското общество в България, 2020–2025 г.">
+  <title>Демокрация и гражданско общество в България · 2020–2025</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Към съдържанието</a>
+  <header class="topbar" aria-label="Основна навигация">
+    <a class="brand" href="#cover" aria-label="Начало">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span><b>CIVIC / BG</b><small>2020—2025</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Раздели">
+      <a href="#landscape" data-i18n="navLandscape">Картина</a>
+      <a href="#timeline" data-i18n="navTimeline">Хронология</a>
+      <a href="#programmes" data-i18n="navProgrammes">Програми</a>
+      <a href="#institutions" data-i18n="navInstitutions">Институции</a>
+      <a href="#method" data-i18n="navMethod">Метод</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-switch" id="langSwitch" type="button" aria-label="Switch to English"><span class="active">BG</span><span>EN</span></button>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Отвори менюто"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <main id="main">
+    <section class="slide cover" id="cover" data-section="01">
+      <div class="cover-shape shape-blue" aria-hidden="true"></div>
+      <div class="cover-shape shape-yellow" aria-hidden="true"></div>
+      <div class="cover-shape shape-green" aria-hidden="true"></div>
+      <div class="cover-grid">
+        <div class="cover-copy reveal">
+          <p class="eyebrow" data-i18n="coverEyebrow">Интерактивен обзор · 2020—2025</p>
+          <h1 data-i18n="coverTitle">Демокрация и<br>гражданско общество<br><em>в България</em></h1>
+          <p class="cover-lead" data-i18n="coverLead">Карта на публично документираните програми, фондове и проекти — от европейски механизми до двустранни и частни дарители.</p>
+          <a class="primary-button" href="#scope"><span data-i18n="explore">Разгледайте презентацията</span><b aria-hidden="true">↓</b></a>
+        </div>
+        <aside class="notice-card reveal" aria-labelledby="notice-title">
+          <div class="notice-icon" aria-hidden="true">i</div>
+          <div>
+            <h2 id="notice-title" data-i18n="noticeTitle">За целта и ограниченията</h2>
+            <p data-i18n="noticeBody">Тази интерактивна презентация обобщава публично достъпна информация за приключили и текущи програми и проекти, които подпомагат демократичното развитие, защитата на права и устойчивостта на гражданското общество в България. Тя има аналитичен и ориентационен характер и не представлява официален регистър или становище на която и да е от посочените институции.</p>
+            <p data-i18n="noticeBody2">Възможни са разлики спрямо действително реализираните дейности и бюджети, включително поради оперативни промени, които не са отразени в използваните публични източници. За решения, одит или задълбочен анализ препоръчваме проверка и потвърждение от съответните официални източници.</p>
+          </div>
+        </aside>
+      </div>
+      <div class="section-index"><span>01</span><i></i><small data-i18n="coverIndex">Въведение</small></div>
+    </section>
+
+    <section class="slide scope" id="scope" data-section="02">
+      <div class="section-heading reveal">
+        <p class="eyebrow" data-i18n="scopeEyebrow">Как да четем данните</p>
+        <h2 data-i18n="scopeTitle">Финансирането има<br><em>различни мащаби</em></h2>
+        <p data-i18n="scopeIntro">Програмните бюджети, националните компоненти и отделните грантове не са взаимозаменяеми. Затова ги показваме в три ясно разграничени нива.</p>
+      </div>
+      <div class="scope-cards">
+        <article class="scope-card blue reveal">
+          <span class="scope-number">01</span>
+          <h3 data-i18n="scopeSharedTitle">Споделени европейски програми</h3>
+          <p data-i18n="scopeSharedBody">Големи многогодишни бюджети, достъпни за организации от България, но без предварително определен национален дял.</p>
+          <strong>€2.864B</strong>
+          <small data-i18n="scopeSharedNote">CERV, Европейски корпус за солидарност и „Правосъдие“</small>
+        </article>
+        <article class="scope-card green reveal">
+          <span class="scope-number">02</span>
+          <h3 data-i18n="scopeCountryTitle">Български компоненти</h3>
+          <p data-i18n="scopeCountryBody">Бюджети, определени за България в рамките на ЕИП/Норвежкия и Швейцарския механизъм.</p>
+          <strong>€60.6M</strong>
+          <small data-i18n="scopeCountryNote">Правосъдие, Активни граждани, гражданско участие и антикорупция</small>
+        </article>
+        <article class="scope-card yellow reveal">
+          <span class="scope-number">03</span>
+          <h3 data-i18n="scopeAwardTitle">Конкретни грантове и схеми</h3>
+          <p data-i18n="scopeAwardBody">Идентифицирани проекти и схеми за регрантиране с публикувана стойност.</p>
+          <strong>€7.45M+</strong>
+          <small data-i18n="scopeAwardNote">ProEUvaluesBG, BIRDS, FORCE и избрани частни/американски грантове</small>
+        </article>
+      </div>
+      <p class="caution-note reveal"><span>!</span><span data-i18n="scopeCaution">Трите нива не се събират механично: част от конкретните схеми са финансирани от по-големите програмни бюджети.</span></p>
+      <div class="section-index"><span>02</span><i></i><small data-i18n="scopeIndex">Обхват</small></div>
+    </section>
+
+    <section class="slide landscape" id="landscape" data-section="03">
+      <div class="section-heading compact reveal">
+        <p class="eyebrow" data-i18n="landscapeEyebrow">Съпоставимата част</p>
+        <h2 data-i18n="landscapeTitle">Документирани средства<br><em>за България</em></h2>
+        <p data-i18n="landscapeIntro">Подбрани национални бюджети и отделни грантове, преобразувани ориентировъчно в евро. Подредбата е по публикуван размер.</p>
+      </div>
+      <div class="landscape-grid">
+        <div class="big-stat reveal"><span data-i18n="identified">Идентифициран минимум</span><strong>€68.0M+</strong><small data-i18n="identifiedNote">за основни програми и проекти, свързани с права, правосъдие, участие и граждански капацитет</small></div>
+        <div class="bar-chart reveal" id="barChart" role="img" aria-label="Сравнение на публикуваните бюджети"></div>
+      </div>
+      <div class="chart-legend reveal">
+        <span><i class="legend-country"></i><b data-i18n="legendCountry">Национална програма</b></span>
+        <span><i class="legend-award"></i><b data-i18n="legendAward">Конкретен проект / грант</b></span>
+        <small data-i18n="chartFootnote">Ориентировъчни преобразувания: CHF/EUR 0.9314, GBP/EUR 0.8726, USD/EUR 1.175. Стойностите са програмни бюджети или присъдени грантове, а не непременно извършени разходи.</small>
+      </div>
+      <div class="section-index"><span>03</span><i></i><small data-i18n="landscapeIndex">Финансова картина</small></div>
+    </section>
+
+    <section class="slide flow" id="flow" data-section="04">
+      <div class="section-heading compact reveal">
+        <p class="eyebrow" data-i18n="flowEyebrow">Как достига подкрепата</p>
+        <h2 data-i18n="flowTitle">От институцията<br><em>до местната промяна</em></h2>
+      </div>
+      <div class="flow-map reveal">
+        <div class="flow-column">
+          <span class="flow-label" data-i18n="flowFunders">Финансиращи институции</span>
+          <div class="flow-node"><b>EU</b><span data-i18n="ec">Европейска комисия</span></div>
+          <div class="flow-node"><b>EEA</b><span>EEA &amp; Norway Grants</span></div>
+          <div class="flow-node"><b>CH</b><span data-i18n="swiss">Швейцарска конфедерация</span></div>
+          <div class="flow-node"><b>US</b><span data-i18n="usPhilanthropy">Американски и частни донори</span></div>
+        </div>
+        <div class="flow-arrows" aria-hidden="true"><span>→</span><span>→</span><span>→</span></div>
+        <div class="flow-column middle">
+          <span class="flow-label" data-i18n="flowIntermediaries">Посредници и администратори</span>
+          <div class="flow-node"><b>OSI</b><span>OSI–Sofia · WCIF · ECAS</span></div>
+          <div class="flow-node"><b>BFW</b><span data-i18n="bfw">Български фонд за жените</span></div>
+          <div class="flow-node"><b>GMF</b><span>German Marshall Fund</span></div>
+          <div class="flow-node"><b>MoJ</b><span data-i18n="moj">Министерство на правосъдието</span></div>
+        </div>
+        <div class="flow-arrows" aria-hidden="true"><span>→</span><span>→</span><span>→</span></div>
+        <div class="flow-column outcomes">
+          <span class="flow-label" data-i18n="flowOutcomes">Обществени резултати</span>
+          <div class="outcome-bubble purple"><b data-i18n="rights">Права</b><small data-i18n="rightsSub">достъп до правосъдие и защита</small></div>
+          <div class="outcome-bubble blue"><b data-i18n="participation">Участие</b><small data-i18n="participationSub">граждански глас и доброволчество</small></div>
+          <div class="outcome-bubble green"><b data-i18n="capacity">Капацитет</b><small data-i18n="capacitySub">устойчиви организации и мрежи</small></div>
+          <div class="outcome-bubble yellow"><b data-i18n="accountability">Отчетност</b><small data-i18n="accountabilitySub">прозрачност и медийна грамотност</small></div>
+        </div>
+      </div>
+      <p class="flow-note reveal" data-i18n="flowNote">При схемите за регрантиране публикуваният бюджет включва управление, обучение и подкрепа за организациите; не цялата сума се разпределя като преки грантове.</p>
+      <div class="section-index"><span>04</span><i></i><small data-i18n="flowIndex">Механизъм</small></div>
+    </section>
+
+    <section class="slide timeline-section" id="timeline" data-section="05">
+      <div class="section-heading compact reveal">
+        <p class="eyebrow" data-i18n="timelineEyebrow">Шест години в движение</p>
+        <h2 data-i18n="timelineTitle">Хронология<br><em>2020—2025</em></h2>
+        <p data-i18n="timelineIntro">Периодът показва преход от приключващи механизми към ново поколение европейски, двустранни и частни инструменти.</p>
+      </div>
+      <div class="timeline" id="timelineTrack"></div>
+      <div class="section-index"><span>05</span><i></i><small data-i18n="timelineIndex">Хронология</small></div>
+    </section>
+
+    <section class="slide programmes" id="programmes" data-section="06">
+      <div class="section-heading compact reveal">
+        <p class="eyebrow" data-i18n="programmesEyebrow">Интерактивен каталог</p>
+        <h2 data-i18n="programmesTitle">Програми и<br><em>проекти</em></h2>
+        <p data-i18n="programmesIntro">Филтрирайте по произход и тема. Всяка карта води към публичния източник, използван в проучването.</p>
+      </div>
+      <div class="filter-panel reveal">
+        <div class="filter-group" id="regionFilters" aria-label="Филтър по регион"></div>
+        <div class="filter-group" id="domainFilters" aria-label="Филтър по тема"></div>
+      </div>
+      <div class="programme-count reveal"><span id="programmeCount">0</span> <span data-i18n="results">резултата</span></div>
+      <div class="programme-grid" id="programmeGrid"></div>
+      <div class="section-index"><span>06</span><i></i><small data-i18n="programmesIndex">Каталог</small></div>
+    </section>
+
+    <section class="slide institutions" id="institutions" data-section="07">
+      <div class="section-heading compact reveal">
+        <p class="eyebrow" data-i18n="institutionsEyebrow">Обобщение по институции</p>
+        <h2 data-i18n="institutionsTitle">Публикувани стойности<br><em>в низходящ ред</em></h2>
+        <p data-i18n="institutionsIntro">Сумите включват само съпоставими, количествено определени национални компоненти и избрани грантове от каталога.</p>
+      </div>
+      <div class="institution-layout">
+        <div class="institution-table-wrap reveal">
+          <table class="institution-table">
+            <thead><tr><th data-i18n="institution">Институция</th><th data-i18n="included">Включени програми</th><th data-i18n="totalEur">Общо, EUR</th></tr></thead>
+            <tbody id="institutionTable"></tbody>
+          </table>
+        </div>
+        <aside class="unquantified reveal">
+          <h3 data-i18n="unquantifiedTitle">Потвърдена подкрепа без публикуван общ размер</h3>
+          <div class="logo-cloud" id="logoCloud"></div>
+          <p data-i18n="unquantifiedNote">Тези организации присъстват в публични проектни или донорски документи, но наличните източници не позволяват надежден общ размер за България през 2020–2025 г.</p>
+        </aside>
+      </div>
+      <div class="section-index"><span>07</span><i></i><small data-i18n="institutionsIndex">Институции</small></div>
+    </section>
+
+    <section class="slide source-section" id="method" data-section="08">
+      <div class="method-grid">
+        <div class="section-heading compact reveal">
+          <p class="eyebrow" data-i18n="methodEyebrow">Метод и източници</p>
+          <h2 data-i18n="methodTitle">Как е изграден<br><em>този обзор</em></h2>
+        </div>
+        <div class="method-steps reveal">
+          <article><span>01</span><div><h3 data-i18n="method1Title">Публични документи</h3><p data-i18n="method1Body">Официални програмни страници, решения, отчети на донори и получатели и регистри на публични разходи.</p></div></article>
+          <article><span>02</span><div><h3 data-i18n="method2Title">Проверка на обхвата</h3><p data-i18n="method2Body">Включени са програми, активни или документирани през 2020–2025 г., дори когато многогодишният им период започва по-рано или приключва по-късно.</p></div></article>
+          <article><span>03</span><div><h3 data-i18n="method3Title">Без двойно броене</h3><p data-i18n="method3Body">Споделените международни бюджети са отделени от българските компоненти и отделните грантове. Родителски и подчинени програми не се събират.</p></div></article>
+          <article><span>04</span><div><h3 data-i18n="method4Title">Ориентировъчни валути</h3><p data-i18n="method4Body">За сравнение сумите в CHF, GBP и USD са преобразувани в EUR по референтни курсове към 30 юни 2025 г.</p></div></article>
+        </div>
+      </div>
+      <div class="sources reveal">
+        <div class="sources-header"><h3 data-i18n="sourcesTitle">Ключови източници</h3><span data-i18n="sourcesHint">Отварят се в нов прозорец</span></div>
+        <div class="source-list" id="sourceList"></div>
+      </div>
+      <footer class="footer-note reveal">
+        <div><b>CIVIC / BG</b><span data-i18n="footerText">Независим аналитичен преглед · актуализиран спрямо наличните публични източници</span></div>
+        <a href="#cover"><span data-i18n="backTop">Към началото</span> ↑</a>
+      </footer>
+      <div class="section-index"><span>08</span><i></i><small data-i18n="methodIndex">Методология</small></div>
+    </section>
+  </main>
+
+  <div class="slide-controls" aria-label="Навигация между разделите">
+    <button id="prevSlide" type="button" aria-label="Предишен раздел">↑</button>
+    <span id="slideCounter">01 / 08</span>
+    <button id="nextSlide" type="button" aria-label="Следващ раздел">↓</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
